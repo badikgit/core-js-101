@@ -595,7 +595,7 @@ function getElementByIndexes(arr, indexes) {
  */
 function swapHeadAndTail(arr) {
   const mid = Math.floor(arr.length / 2);
-  let result = []; let tail = [];
+  let zadraloLomatsya = []; let tail = [];
   let head = [];
   if (arr.length % 2 === 0) {
     tail = arr.slice(mid);
@@ -605,8 +605,8 @@ function swapHeadAndTail(arr) {
     tail.push(arr[mid]);
     head = arr.slice(0, mid);
   }
-  result = tail.concat(head);
-  return result;
+  zadraloLomatsya = tail.concat(head);
+  return zadraloLomatsya;
 }
 
 
